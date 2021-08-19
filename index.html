@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="title" property="og:title" content="Shoot Your Shot">
+    <meta name="image" property="og:image" content="showcase.gif">
+    <meta name="author" property="og:author" content="Krish Shah">
+    <meta name="description" property="og:description" content="A basketball game using HTML Canvas where users can use there mouse to point and aim towards a hoop that is is either stationary or moving in multitude of ways. Shoot Your Shot" />
+
+    <link rel="icon" href="./src/images/ball.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/main.css">
+    <title>Shoot Your Shot 😉</title>
+</head>
+<div class="body">
+    <div class="content">
+        <div class="title">Shoot Your Shot 😉</div>
+        <div class="author">A JavaScript game by Krish Shah</div>
+        <div class="high-score-container">Current Best: <span id="best"></span></div>
+        <div class="score-container">Score:<span id="score"></span></div>
+        <div class="howtoplay"><h2>How to Play</h2><p>Legend has it, the one who can flick the ball with their mouse can enter a very secret society. A society of elite ballers. Some say if you can get the elusive 99 points highscore. you unlock the knowledge to Lebron James secret to eternal youth. Think you have what it takes yungblud?</p></div>
+        <div class="about-me">Find me at</div>
+        <div class="socials">
+            <a class="social-link" href="https://krish-shah.vercel.app/" target="_blank" rel="noopener noreferrer"><i class="fas fa-home"></i></a>
+            <a class="social-link" href="https://github.com/krish-shahh" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-github"></i></a>
+            <a class="social-link" href="https://www.linkedin.com/in/krish-n-shah/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-linkedin"></i></a>
+            <a class="social-link" href="https://twitter.com/Krish_Shahh" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-twitter"></i></a>
+            <a class="social-link" href="https://www.instagram.com/krish.shahh/" target="_blank" rel="noopener noreferrer"><i
+                    class="fab fa-instagram"></i></a>
+        </div>
+        <img id="ballImg" src="./src/images/ball.png" alt="ball">
+        <audio id="missNoise" src="./src/sounds/miss.mp3"></audio>
+        <audio id="swishNoise" src="./src/sounds/swish.mp3"></audio>
+    </div>
+    <canvas id="canvas" ></canvas>
+    <script src="./dist/main.js"></script>
+</div>
+</html>
