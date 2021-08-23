@@ -1,7 +1,7 @@
 Shoot Your Shot
 ======
 
-*Shoot Your Shot* is a basketball shot game created using HTML Canvas and Vanilla Javascript. Players can play a easy to pick up game where they can throw a ball into a hoop to score points using their mouse to the views of the beautiful Venice Beach basketball courts.
+*Shoot Your Shot* is a basketball shot game created using HTML, Canvas, and Vanilla Javascript. Players can play a easy to pick up game where they can throw a ball into a hoop to score points using their mouse to the views of the beautiful Venice Beach basketball courts.
 
 ## Technologies Used
 * Javascript
